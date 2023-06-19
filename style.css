@@ -65,20 +65,7 @@ body{
 .blend:hover{
     background-color: rgba(106, 175, 91, 0.9);
 }
-.button{
-    /* background-color: rgba(106, 175, 91, 0.5); */
-    border: none;
-    margin: 5px;
-    padding: 5px;
-    border-radius: 5px;
-    min-width: 2.5em;
-}
 
-.button:hover{
-    /* background-color: rgba(106, 175, 91, 0.75); */
-    cursor: pointer;
-
-}
 #show-menu{
     color: #fff;
     font-weight: bold;
@@ -161,6 +148,9 @@ body{
     border: none;
     background-color: #fff;
     color: #0f0f0fb2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .card:hover{
     background-color: #ffffffbb;
@@ -189,6 +179,39 @@ body{
     font-weight: bolder;
     color: rgba(0, 0, 0, 0.778);
 }
-.close:hover{
+.close-small{
+    background: none;
+    font-size: large;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.778);
+}
+.close:hover, .close-small:hover{
     color: rgba(255, 255, 255, 0.647);
+}
+
+
+.fa-pencil:hover{
+    color: #b0b0b0;
+}
+
+/* common styling */
+
+.button{
+    /* background-color: rgba(106, 175, 91, 0.5); */
+    border: none;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    min-width: 2.5em;
+}
+
+.button:hover{
+    /* background-color: rgba(106, 175, 91, 0.75); */
+    cursor: pointer;
+
+}
+
+.no-background{
+    background: none;
+    border: none;
 }
