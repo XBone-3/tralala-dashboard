@@ -12,16 +12,16 @@
         <header class="nav-bar-main">
             <nav class="nav-bar">
                 <div class="home-items">
-                    <button class="button" id="home"><i class="fa-solid fa-house-user"></i></button>
-                    <button class="button" id="boards"><i class="fa-sharp fa-solid fa-list"></i> Boards</button>
+                    <button class="button blend" id="home"><i class="fa-solid fa-house-user"></i></button>
+                    <button class="button blend" id="boards"><i class="fa-sharp fa-solid fa-list"></i> Boards</button>
                     <input type="text" value="" name="search" id="search-main">
                 </div>
                 <div class="app-title">
                     <h2 class="heading2">Tralala</h2>
                 </div>
                 <div class="nav-form">
-                    <button class="button" id="plus"><i class="fa-solid fa-plus"></i></button>
-                    <button class="button" id="signup"><i class="fa-solid fa-user-plus"></i></button>
+                    <button class="button blend" id="plus"><i class="fa-solid fa-plus"></i></button>
+                    <button class="button blend" id="signup"><i class="fa-solid fa-user-plus"></i></button>
                 </div>
             </nav>
             <section id="content-title">
@@ -35,7 +35,91 @@
         </header>
     </div>
     <div class="container-body">
-        
+        <div class="block" id="to-do">
+            <div class="title">
+                <h4 class="heading4">To Do</h4>
+                <i class="fa-solid fa-ellipsis"></i>
+            </div>
+            <div class="cards">
+                <input type="button" value="Learn HTML" class="card">
+                <input type="button" value="Learn CSS" class="card">
+                <input type="button" value="Learn js" class="card">
+            </div>
+            <div class="add-card">
+                <button class="para-small button">+Add another card</button>
+            </div>
+        </div>
+        <div class="block" id="doing">
+            <div class="title">
+                <h4 class="heading4">Doing</h4>
+                <i class="fa-solid fa-ellipsis"></i>
+            </div>
+            <div class="cards">
+                <input type="button" value="Prepare resume" class="card">
+                <textarea name="task" id="card-content" cols="15" rows="4" placeholder="Enter a title for this card ..." class="card"></textarea>
+            </div>
+            <div class="add-card">
+                <button class="button add-btn">Add card</button>
+                <button class="button close">X</button>
+            </div>
+        </div>
+        <div class="block" id="Test-verify">
+            <div class="title">
+                <h4 class="heading4">Testing/Verifying</h4>
+                <i class="fa-solid fa-ellipsis"></i>
+            </div>
+            <div class="cards">
+                <input type="button" value="Twitter app frontend" class="card">
+                
+            </div>
+            <div class="add-card">
+                <button class="para-small button">+Add another card</button>
+            </div>
+        </div>
+        <div class="block" id="deploying">
+            <div class="title">
+                <h4 class="heading4">Deploying</h4>
+                <i class="fa-solid fa-ellipsis"></i>
+            </div>
+            <div class="cards">
+                <input type="button" value="Twitter app backend" class="card">
+                
+            </div>
+            <div class="add-card">
+                <button class="para-small button">+Add another card</button>
+            </div>
+        </div>
+        <div class="block" id="done">
+            <div class="title">
+                <h4 class="heading4">Done</h4>
+                <i class="fa-solid fa-ellipsis"></i>
+            </div>
+            <div class="add-card">
+                <button class="para-small button">+Add another card</button>
+            </div>
+        </div>
+        <div class="block" id="add-anther-list">
+            <!-- <div class="title">
+                <h4 class="heading4">Add Another List</h4>
+                <i class="fa-solid fa-ellipsis"></i>
+            </div> -->
+            <div class="add-card">
+                <button class="para-small button">+Add another card</button>
+            </div>
+        </div>
+        <div class="block" id="add-list">
+            <!-- <div class="title">
+                <h4 class="heading4">Add List</h4>
+                <i class="fa-solid fa-ellipsis"></i>
+            </div> -->
+            <div class="cards">
+                <textarea name="task" id="list-content" cols="15" rows="4" placeholder="Enter a title for this card ..." class="card"></textarea>
+            </div>
+            <div class="add-card">
+                <button class="button add-btn">Add List</button>
+                <button class="button close">X</button>
+            </div>
+        </div>
     </div>
 </body>
 </html>

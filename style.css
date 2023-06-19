@@ -59,8 +59,14 @@ body{
     padding: 5px;
     transform: translate(-100%, 0%);
 }
-.button{
+.blend{
     background-color: rgba(106, 175, 91, 0.5);
+}
+.blend:hover{
+    background-color: rgba(106, 175, 91, 0.9);
+}
+.button{
+    /* background-color: rgba(106, 175, 91, 0.5); */
     border: none;
     margin: 5px;
     padding: 5px;
@@ -69,7 +75,8 @@ body{
 }
 
 .button:hover{
-    background-color: rgba(106, 175, 91, 0.75);
+    /* background-color: rgba(106, 175, 91, 0.75); */
+    cursor: pointer;
 
 }
 #show-menu{
@@ -97,3 +104,91 @@ body{
 
 /* main container styling */
 
+.container-body{
+    margin-top: 7em;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: #393535;
+}
+
+.block{
+    background-color: rgba(106, 175, 91, 0.5);
+    min-width: 225px;
+    min-height: auto;
+    max-height: 100vh;
+    margin: 5px;
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.348);
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heading4{
+    color: #d6d05b;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    padding: 0;
+}
+.para-small{
+    font-size: small;
+    margin-top: 10px;
+    padding: 0;
+    background: none;
+}
+.para-small:hover{
+    color: #ffffff;
+}
+.cards{
+    text-align: center;
+}
+
+.card{
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 90%;
+    text-align: left;
+    border-radius: 10px;
+    border: none;
+    background-color: #fff;
+    color: #0f0f0fb2;
+}
+.card:hover{
+    background-color: #ffffffbb;
+}
+
+.add-card{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.add-btn{
+    background-color: #2fff00a6;
+    color: #fff;
+    padding: 10px;
+    font-size: medium;
+}
+.add-btn:hover{
+    background-color: #4374389c;
+}
+
+.close{
+    background: none;
+    font-size: large;
+    padding: 10px;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.778);
+}
+.close:hover{
+    color: rgba(255, 255, 255, 0.647);
+}
