@@ -1,0 +1,99 @@
+body{
+    background-image: url("./media/background-aurora-1.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    /* font-weight: bold; */
+    /* padding:10px; */
+}
+
+/* header styling */
+
+.container-header{
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav-bar-main{
+    margin: 0;
+    padding: 0;
+    position: inherit;
+    width: 100%;
+}
+
+.nav-bar{
+    background-color: rgba(106, 175, 91, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 5px; */
+    /* padding: 5px; */
+    text-align: center;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.348);
+}
+
+#search-main{
+    background-color: rgba(106, 175, 91, 0.5);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+#search-main:focus{
+    background-color: #fff;
+}
+
+.heading2{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #0f0f0f;
+    margin: 7px;
+    padding: 5px;
+    transform: translate(-100%, 0%);
+}
+.button{
+    background-color: rgba(106, 175, 91, 0.5);
+    border: none;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    min-width: 2.5em;
+}
+
+.button:hover{
+    background-color: rgba(106, 175, 91, 0.75);
+
+}
+#show-menu{
+    color: #fff;
+    font-weight: bold;
+    background: none;
+}
+#show-menu:hover{
+    color: rgba(225, 225, 225, 0.7);
+}
+.para{
+    margin: auto;
+    padding: 10px;
+}
+
+#content-title{
+    background-color: rgba(106, 175, 91, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* main container styling */
+
